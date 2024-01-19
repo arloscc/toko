@@ -8,3 +8,7 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
+.krabby {
+  font-family: var(--font-krabby);
+}

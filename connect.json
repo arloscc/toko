@@ -1,0 +1,26 @@
+{
+    "products" : [
+        {
+
+            "id" :1,
+            "name" :"Krabby Patty",
+            "price" : 20000
+        },
+        {
+
+            "id" :2,
+            "name" :"Kelp",
+            "price" : 10000
+        },
+        {
+
+            "id" :2,
+            "name" :"Juice",
+            "price" : 8000
+        }
+            
+
+
+
+    ]
+}

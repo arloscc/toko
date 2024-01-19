@@ -1,8 +1,17 @@
 import type { Metadata } from 'next'
 import { Inter , Poppins } from 'next/font/google'
-import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] , variable :'--font-Inter' })
+import './globals.css'
+import CustomFont from 'next/font/local'
+
+const cfont = CustomFont({
+  src: '../../public/fonts/KrabbyPatty.ttf',
+  variable: '--font-krabby',
+})
+
+
+
+
 const poppins = Poppins({ subsets: ['latin'] , weight: ['400'] , variable :'--font-Poppins'})
 
 export const metadata: Metadata = {
@@ -17,7 +26,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} ${inter.variable}`}>{children}</body>
+      <body className={`${cfont.variable}`}>{children}</body>
     </html>
   )
 }
