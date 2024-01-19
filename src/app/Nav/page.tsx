@@ -9,7 +9,7 @@ export default function Nav(){
         <nav className="flex justify-end text-lg text-blue-950">
                 <Link className="px-2 scale-90 hover:scale-95 text-amber-600 hover:text-amber-700 duration-300" href="">Home</Link>
                 <Link className="px-2 scale-90 hover:scale-95 text-amber-600 hover:text-amber-700 duration-300" href="">Favorite</Link>
-                <Link className="px-2 scale-90 hover:scale-95 text-amber-600 hover:text-amber-700 duration-300" href="">About Us</Link>
+                <Link className="px-2 scale-90 hover:scale-95 text-amber-600 hover:text-amber-700 duration-300" href="">About Uss</Link>
         </nav>
         </div>
         
