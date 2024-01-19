@@ -11,7 +11,7 @@ export default function Nav(){
 
                 <Link className="p-2" href="">Home</Link>
                 <Link className="p-2" href="">Favorite</Link>
-                <Link className="p-2" href="">About Us</Link>
+                <Link className="p-2" href="">About Uss</Link>
                 </div>
             </div>
         </nav>
